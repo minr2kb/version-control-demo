@@ -8,10 +8,9 @@ import ShowList from "./components/ShowList";
 
 const NoMatch = ({location}) => (
     <div>
-        <strong>Error!</strong> No route found matching:
-        <div>
+        <h1>404: Pages Not Found 
             <code>{location.pathname}</code>
-        </div>
+        </h1>
     </div>
 );
 
